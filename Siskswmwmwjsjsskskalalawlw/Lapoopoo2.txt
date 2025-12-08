@@ -741,7 +741,7 @@ end
 
 local ClearBtn = CreateSideBtn("Clear Dummies", Color3.fromRGB(30, 60, 100)) 
 local MuteBtn = CreateSideBtn("Mute Audio", Color3.fromRGB(30, 60, 100)) 
-local FocusBtn = CreateSideBtn("Cum~❤", Color3.fromRGB(255, 255, 255))
+local FocusBtn = CreateSideBtn("Focus", Color3.fromRGB(255, 255, 255))
 FocusBtn.TextColor3 = Color3.new(0,0,0) 
 
 local GlobalBtn = CreateSideBtn("Mode: Private", Color3.fromRGB(46, 204, 113))
@@ -870,7 +870,7 @@ MeshTitle.Size = UDim2.new(1, 0, 0, 25)
 MeshTitle.Position = UDim2.new(0, 0, 0, -5)
 MeshTitle.BackgroundTransparency = 1
 MeshTitle.TextColor3 = Color3.fromRGB(255, 105, 180)
-MeshTitle.Text = "❤Sex Morph❤" 
+MeshTitle.Text = "❤Morph❤" 
 MeshTitle.Font = Enum.Font.FredokaOne
 MeshTitle.TextSize = 20
 MeshTitle.Parent = Page2
@@ -1003,15 +1003,15 @@ local function CreateControlRow(yPos, labelText, btnName)
 	return Box, ViewBtn
 end
 
-local InputBox1, ViewBtn1 = CreateControlRow(0.02, "Getting Fucked 💞", "ViewLeft")
-local InputBox2, ViewBtn2 = CreateControlRow(0.25, "User Fucker 💕 ", "ViewRight")
+local InputBox1, ViewBtn1 = CreateControlRow(0.02, "User 💞", "ViewLeft")
+local InputBox2, ViewBtn2 = CreateControlRow(0.25, "User 💕 ", "ViewRight")
 
 local SpeedLabel = Instance.new("TextLabel")
 SpeedLabel.Size = UDim2.new(1, 0, 0, 15)
 SpeedLabel.Position = UDim2.new(0, 0, 0.48, 0)
 SpeedLabel.BackgroundTransparency = 1
 SpeedLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
-SpeedLabel.Text = "Speed [Fuck more HARDER~]"
+SpeedLabel.Text = "Speed [~]"
 SpeedLabel.TextSize = 14
 SpeedLabel.ZIndex = 6
 SpeedLabel.Parent = Page1
@@ -1300,7 +1300,7 @@ ApplyBtn.MouseButton1Click:Connect(function()
     	    task.wait(1)
     	end
     	
-    	ApplyBtn.Text = "The Sex Button~"
+    	ApplyBtn.Text = "The Button~"
     	ApplyBtn.BackgroundColor3 = Color3.fromRGB(52, 152, 219) 
     	spawnDebounce = false
 	end)
@@ -1317,7 +1317,7 @@ ApplyBtn.MouseButton1Click:Connect(function()
         	end)
         	pcall(function() game.Players:Chat(syncMsg) end)
     	end
-
+	end)
 end)
 
 ViewBtn1.MouseButton1Click:Connect(function()
