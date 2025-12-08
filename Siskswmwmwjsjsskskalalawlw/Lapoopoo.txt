@@ -282,7 +282,6 @@ local function ApplyCustomMesh(targetPart, assetId)
 	mesh.MeshId = assetId
 	mesh.TextureId = "" 
 	mesh.Scale = Vector3.new(1, 1, 1)
-	targetPart.Color = Color3.fromRGB(255, 255, 255)
 end
 
 local function PreloadAnimation(Url)
@@ -545,7 +544,6 @@ local function SetupDummy(DummyModel, TagText, TagColor)
 end
 
 local function LoadDummies(Id1, Id2, Speed, ForcedCFrame)
-	-- 1. CLEANUP
 	for _, dummy in pairs(ActiveDummies) do
 		if ActiveThreads[dummy] then for _, t in pairs(ActiveThreads[dummy]) do task.cancel(t) end end
 		dummy:Destroy()
@@ -742,7 +740,7 @@ end
 
 local ClearBtn = CreateSideBtn("Clear Dummies", Color3.fromRGB(30, 60, 100)) 
 local MuteBtn = CreateSideBtn("Mute Audio", Color3.fromRGB(30, 60, 100)) 
-local FocusBtn = CreateSideBtn("Cum~❤", Color3.fromRGB(255, 255, 255))
+local FocusBtn = CreateSideBtn("Cum~â¤", Color3.fromRGB(255, 255, 255))
 FocusBtn.TextColor3 = Color3.new(0,0,0) 
 
 local GlobalBtn = CreateSideBtn("Mode: Private", Color3.fromRGB(46, 204, 113))
@@ -871,7 +869,7 @@ MeshTitle.Size = UDim2.new(1, 0, 0, 25)
 MeshTitle.Position = UDim2.new(0, 0, 0, -5)
 MeshTitle.BackgroundTransparency = 1
 MeshTitle.TextColor3 = Color3.fromRGB(255, 105, 180)
-MeshTitle.Text = "❤Sex Morph❤" 
+MeshTitle.Text = "â¤Sex Morphâ¤" 
 MeshTitle.Font = Enum.Font.FredokaOne
 MeshTitle.TextSize = 20
 MeshTitle.Parent = Page2
@@ -1004,8 +1002,8 @@ local function CreateControlRow(yPos, labelText, btnName)
 	return Box, ViewBtn
 end
 
-local InputBox1, ViewBtn1 = CreateControlRow(0.02, "Getting Fucked 💞", "ViewLeft")
-local InputBox2, ViewBtn2 = CreateControlRow(0.25, "User Fucker 💕 ", "ViewRight")
+local InputBox1, ViewBtn1 = CreateControlRow(0.02, "Getting Fucked ðŸ’ž", "ViewLeft")
+local InputBox2, ViewBtn2 = CreateControlRow(0.25, "User Fucker ðŸ’• ", "ViewRight")
 
 local SpeedLabel = Instance.new("TextLabel")
 SpeedLabel.Size = UDim2.new(1, 0, 0, 15)
@@ -1056,7 +1054,6 @@ ResetCamBtn.Parent = Page1
 Instance.new("UICorner", ResetCamBtn).CornerRadius = UDim.new(0, 6)
 AddClickSound(ResetCamBtn)
 
--- INTRO SEQUENCE
 local IntroCover = Instance.new("Frame")
 IntroCover.Size = UDim2.new(1, 0, 1, 0)
 IntroCover.BackgroundTransparency = 1
