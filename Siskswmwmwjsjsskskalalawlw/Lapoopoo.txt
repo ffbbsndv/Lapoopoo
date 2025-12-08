@@ -26,7 +26,7 @@ local IsMuted = false
 local SyncPrefix = "/e sync_dummies " 
 local ClearPrefix = "/e sync_clear"
 
-local BaseGitHubUrl = "https://github.com/ffbbsndv/Ehheheheje/raw/refs/heads/main/Adef/"
+local BaseGitHubUrl = "https://github.com/ffbbsndv/Lapoopoo/raw/refs/heads/main/Siskswmwmwjsjsskskalalawlw/"
 
 local SelectedMeshIndex = 1 
 
@@ -80,32 +80,32 @@ end
 local AnimationPairs = {
 	[1] = { 
 		Name = "Reverse Cowgirl",
-		Left = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/.github/submit.txt",
-		Right = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/.github/Dominatee.txt"
+		Left = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/submit.txt",
+		Right = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/Dominatee.txt"
 	},
 	[2] = { 
 		Name = "Doggy Style [Standing]",
-		Left = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/.github/Kneeling.txt", 
-		Right = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/.github/Standing.txt"
+		Left = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/Kneeling.txt", 
+		Right = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/Standing.txt"
 	},
 	[3] = { 
 		Name = "Devious Backshots",
-		Left = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/.github/Submitted.txt", 
-		Right = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/.github/Dominating.txt"
+		Left = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/Submitted.txt", 
+		Right = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/Dominating.txt"
 	},
 	[4] = { 
 		Name = "Doggy Style",
-		Left = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/.github/Bottom.txt", 
-		Right = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/.github/Top.txt"
+		Left = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/Bottom.txt", 
+		Right = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/Top.txt"
 	}
 }
 
 local BackgroundImages = {
-	"https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/Adef/SCons.png", 
-	"https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/Adef/SCons.png"
+	"https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/image.png", 
+	"https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/image.png"
 }
 
-local IntroImgUrl = "https://raw.githubusercontent.com/ffbbsndv/Ehheheheje/refs/heads/main/Adef/SCons.png"
+local IntroImgUrl = "https://raw.githubusercontent.com/ffbbsndv/Lapoopoo/refs/heads/main/Siskswmwmwjsjsskskalalawlw/image.png"
 
 local sounds = {
 	["Impacts"] = {8142423452},
@@ -117,7 +117,7 @@ local sounds = {
 
 local function SpawnFloatingText()
     local screenGui = Instance.new("ScreenGui")
-    screenGui.Name = "ScriptCons_FloatingText" -- Named specifically so we can delete it later!
+    screenGui.Name = "ScriptCons_FloatingText"
     screenGui.DisplayOrder = 100
     pcall(function() screenGui.Parent = CoreGui end)
     
@@ -742,7 +742,7 @@ end
 
 local ClearBtn = CreateSideBtn("Clear Dummies", Color3.fromRGB(30, 60, 100)) 
 local MuteBtn = CreateSideBtn("Mute Audio", Color3.fromRGB(30, 60, 100)) 
-local FocusBtn = CreateSideBtn("Focus", Color3.fromRGB(255, 255, 255))
+local FocusBtn = CreateSideBtn("Cum~❤", Color3.fromRGB(255, 255, 255))
 FocusBtn.TextColor3 = Color3.new(0,0,0) 
 
 local GlobalBtn = CreateSideBtn("Mode: Private", Color3.fromRGB(46, 204, 113))
@@ -812,7 +812,7 @@ SubTitle.Size = UDim2.new(1, 0, 0, 15)
 SubTitle.Position = UDim2.new(0, 0, 0.10, 0)
 SubTitle.BackgroundTransparency = 1
 SubTitle.TextColor3 = Color3.fromRGB(150, 150, 150)
-SubTitle.Text = "Yours truly, kevin"
+SubTitle.Text = " - - || Yours truly, kevin || - - "
 SubTitle.Font = Enum.Font.SourceSansItalic
 SubTitle.TextSize = 14
 SubTitle.ZIndex = 6
