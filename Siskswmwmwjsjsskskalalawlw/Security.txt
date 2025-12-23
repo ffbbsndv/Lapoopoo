@@ -13,6 +13,7 @@ local OwnerID = 9461644139
 
 local SpecialWhitelist = {
 	1348991017,
+	9461644139,
 }
 
 local D_Base = "https://discord.com/api/"
